@@ -1,19 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <title>
-      To-do List
+      할일 목록
     </title>
   </head>
   <body>
     <div class="container">
-      <h1>할일 목록</h1>
-      <input id="input" placeholder="예) 코딩공부하기" />
-      <ul id="list">
-        <li>코딩팍 팔로우하기</li>
-      </ul>
+      <div class="input-container">
+        <input id="input" placeholder="예) 코딩공부하기" />
+        <button id="add">추가</button>
+      </div>
+      <div class="list-container">
+        <h1>할 일 목록</h1>
+        <ul id="list">
+          <li class="list-item">코딩팍 팔로우하기</li>
+        </ul>
+      </div>
     </div>
   </body>
   <script src="app.js"></script>
